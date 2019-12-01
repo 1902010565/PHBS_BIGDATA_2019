@@ -25,7 +25,7 @@ Three main defining properties of big data are volume, variety and velocity.
 
 I. ETL - extraction, transformation, loading. The data is already extracted and transformation applied, so at this point we just need to load the data.
 
-II. Normalization. Now we will organize the data by mapping it, in other words, establishing relationships between tables. Our next step is - to reduce. We remove redundancies by leaving only the parameters we need for the analysis, such as: title, number of votes, average movie rating, movie runtime, release year of the movie. After we esta
+II. Normalization. Now we will organize the data by mapping it, in other words, establishing relationships between tables. Our next step is - to reduce. We remove redundancies by leaving only the parameters we need for the analysis, such as: title, number of votes, average movie rating, movie runtime, release year of the movie.
 
 III. Data cleaning and transformation. Treating missing values, checking if the data is stored in the correct format.
 
@@ -39,4 +39,4 @@ One of the most popular relational open-source database is MySQL, which is sugge
 
 * a big amount of documentation and tools available
 * high performance. MySQL holds a reputation of a fast database solution
-* security. It has reliable database management system, which allows to grant access privileges on a user-by-user basis, define a password for the root user, remove anonymous accounts.
+* security. It has reliable database management system, which allows to grant access privileges on a user-by-user basis, define a password for the root user, remove anonymous accounts. At the same time, in this specific case security of the data is not a priority, since the IMDB data is available to any user.
